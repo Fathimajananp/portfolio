@@ -1,0 +1,308 @@
+.body {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: black;
+}
+
+.menu a {
+    color: rgb(131, 129, 129);
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 18px;
+
+}
+
+.menu a:hover {
+    color: rgb(240, 116, 14);
+}
+
+
+
+
+.logo {
+    color:  rgb(240, 116, 14);
+    font-size: 30px;
+    
+
+}
+
+.nameSection {
+    margin: 45px;
+    /* font-family: ; */
+}
+
+.iam {
+    color: rgb(88, 83, 83);
+    font-size: 12px;
+}
+
+.name {
+    color: gray;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.field {
+    color: rgb(240, 116, 14);
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.cir{
+     width: 100px;
+    height: 100px;
+    background: #1f1c1c;
+    border-radius: 5%;
+    border-color: grey;
+
+}
+
+
+.icons{
+    color: grey;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    gap: 15px;
+    font-size: 15px;
+
+}
+
+
+
+.btnhire {
+    border-radius: 7px;
+    background-color:  rgb(240, 116, 14);
+    font-size: 13px;
+    color: white;
+    padding: 6px 26px;
+    margin-bottom: 25px;
+
+}
+
+.btncv {
+    border-radius: 7px;
+    font-size: 13px;
+    padding: 6px 20px;
+    color: gray;
+    background-color: black;
+    border-color: rgb(185, 178, 178);
+    
+}
+
+.rating {
+    color: rgb(109, 105, 105);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 45, 45);
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+.rating h3{
+    color:  rgb(240, 116, 14);
+}
+
+.rating p{
+    color: rgb(211, 204, 204);
+    font-size: 15px;
+}
+
+.homeright {
+    border-radius: 100px;
+    color: white;
+    size: 150px;
+}
+
+/* parent style */
+
+.parent {
+    /* margin-top: 10px; */
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    /* position: relative; */
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    background: #1f1c1c;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.img{
+    height: 700px;
+    width: 350px; 
+    /* margin-top: -250px;
+    padding-right: 30px; */
+    position:absolute;
+    top: -200px;
+    left: -31px;
+}
+
+.caption{
+    color: white;
+    text-align: center;
+    
+}
+
+.person{
+    color: rgb(240, 116, 14);
+
+
+}
+
+.app{
+    color: rgb(240, 116, 14);
+    text-align: center;
+
+}
+
+.app1{
+    color: rgb(240, 116, 14);
+    text-align: center;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.app2{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 15px;
+    color: grey;
+}
+.p{
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.design{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.divi{
+
+    border-radius: 10px;
+    background-color: rgb(34, 31, 31);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.aside{
+    color: grey;
+    font-size: 16px;
+    width: 387px
+}
+
+
+.about-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.iconBox{
+    color: rgb(240, 116, 14);
+    text-align: center; 
+    
+}
+
+h6{
+    color: gray;
+    font-size: 15px;
+}
+
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    color: rgb(71, 67, 67);
+    list-style: none;
+    margin: 45px;
+}
+.input{
+    color: grey;
+    background-color: #1f1c1c;
+    border-radius: 5px;
+    border: 15px;
+    padding: 10px 20px;
+}
+.input:hover{
+    background-color: rgb(240, 116, 14);
+}
+
+.port{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.folio{
+    border-radius: 10px;
+}
+.but{
+    color: grey;
+    background-color: black;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.formCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dd{
+    
+    color: grey;
+}
+
+.footer{
+    text-align: center;
+
+}
+.mail{
+    color: grey;
+    text-align: center;
+
+}
+
+.iconfoot{
+    color: grey;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    gap: 15px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.hr{
+    width: 50%;
+    text-align: center;
+    color: #1b1a1a;
+}
