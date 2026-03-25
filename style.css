@@ -1,10 +1,12 @@
 .body {
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 .nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 40px;
     background-color: black;
@@ -95,7 +97,11 @@
     color: white;
     padding: 6px 26px;
     margin-bottom: 25px;
-
+    cursor: pointer;
+}
+.btnhire:hover{
+    background-color: orangered;
+    transform: translate(5px,5px);
 }
 
 .btncv {
@@ -105,9 +111,13 @@
     color: gray;
     background-color: black;
     border-color: rgb(185, 178, 178);
-    
+    cursor: pointer;
 }
-
+.btncv:hover{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
 .rating {
     color: rgb(109, 105, 105);
     display: flex;
@@ -139,6 +149,7 @@
     border-radius: 100px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     /* position: relative; */
 }
 
@@ -197,10 +208,19 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.divi{
-
+.divi {
     border-radius: 10px;
     background-color: rgb(34, 31, 31);
+    transition: all 0.3s ease;
+}
+
+.divi:hover {
+    background-color: rgb(60, 60, 60);
+    transform: scale(1.05);
+}
+.divi:hover{
+    transform: translate(3px);
+    box-shadow: 10px 10px rgb(12, 12, 12);
 }
 .main{
     display: flex;
@@ -222,6 +242,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
    
 }
 
@@ -405,3 +426,5 @@ h6{
     justify-content: space-evenly;
     gap: 30px;
 }
+
+ 
