@@ -192,8 +192,13 @@
 .app{
     color: rgb(240, 116, 14);
     text-align: center;
+    /* width: 10px; */
+    
+     /* display: flex; 
+     flex-wrap: wrap;  */
 
 }
+
 
 .app1{
     color: rgb(240, 116, 14);
@@ -213,17 +218,23 @@
     text-align: center;
     font-size: 14px;
     padding: 5px 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .design{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .divi {
     border-radius: 10px;
     background-color: rgb(34, 31, 31);
     transition: all 0.3s ease;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
 }
 
 .divi:hover {
